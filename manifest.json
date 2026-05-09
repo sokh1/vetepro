@@ -1,0 +1,47 @@
+{
+  "name": "VetePro - Gestion des ventes",
+  "short_name": "VetePro",
+  "description": "Gestion des ventes de vetements, stock et paiements clients",
+  "start_url": "./vetepro_final.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#111111",
+  "theme_color": "#1c2e1a",
+  "lang": "fr",
+  "categories": ["business", "finance"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nouveau client",
+      "short_name": "Nouveau",
+      "description": "Enregistrer un nouveau client",
+      "url": "./vetepro_final.html#add"
+    },
+    {
+      "name": "Voir les clients",
+      "short_name": "Clients",
+      "description": "Liste des clients",
+      "url": "./vetepro_final.html#list"
+    },
+    {
+      "name": "Paiements",
+      "short_name": "Paiements",
+      "description": "Suivi des paiements",
+      "url": "./vetepro_final.html#pay"
+    }
+  ]
+}
